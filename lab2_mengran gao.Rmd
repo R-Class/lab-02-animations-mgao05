@@ -111,21 +111,7 @@ dev.off()  # END OF GIF FUNCTION
 
 
 
-  x <- cumsum(rnorm(100))
-  y <- cumsum(rnorm(100))
-  
-  max.x <- max(x)
-  min.x <- min(x)
-  max.y <- max(y)
-  min.y <- min(y)
-  
-  par( ask= T)
-  par( MAR=C(2,2,3,1))
-  for( i in 5:100 )
-  {
-    plot(x[i], y[i], pch=19, cex=2, xlim = c(min.x, max.x), ylim = c(min.y, max.y))
-  }
-  
+
 
 
 
